@@ -1,0 +1,27 @@
+PODS:
+  - Contentful (5.0.9):
+    - Contentful/ImageOptions (= 5.0.9)
+  - Contentful/ImageOptions (5.0.9)
+  - flowe-focus-ios (0.1.0):
+    - Contentful (~> 5.0.8)
+    - URLImage (~> 0.9.12)
+  - URLImage (0.9.13)
+
+DEPENDENCIES:
+  - flowe-focus-ios
+
+SPEC REPOS:
+  "git@gitlab.com:rawfish/flowe/flowe-focus-specs.git":
+    - flowe-focus-ios
+  https://github.com/CocoaPods/Specs.git:
+    - Contentful
+    - URLImage
+
+SPEC CHECKSUMS:
+  Contentful: 5331d11ab2ee9fed7ad2f3e63b355602bc3a99bd
+  flowe-focus-ios: d67616553487eee85650c2890b0b9ab984b5973d
+  URLImage: bc851af67404bd3e8680269770d5a2c9dfaacaf2
+
+PODFILE CHECKSUM: 51df24eb74352eb7ebd19ec948039b272b9ecd5b
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Contentful.framework
+${DWARF_DSYM_FOLDER_PATH}/Contentful.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLImage.framework
+${DWARF_DSYM_FOLDER_PATH}/URLImage.framework.dSYM
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flowe_focus_ios.framework
+${DWARF_DSYM_FOLDER_PATH}/flowe_focus_ios.framework.dSYM

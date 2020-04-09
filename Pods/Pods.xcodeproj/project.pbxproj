@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0D7FD5275837E00363421054899B2918 /* Contentful */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B6BD273AD3FF2A387994D5F3B7CDB614 /* Build configuration list for PBXAggregateTarget "Contentful" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Contentful;
+		};
+		4F7047AC9D3165CC815123201B5B39D4 /* flowe-focus-ios */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51BCA3A84EC6CE64FA39D4F452A83BB4 /* Build configuration list for PBXAggregateTarget "flowe-focus-ios" */;
+			buildPhases = (
+			);
+			dependencies = (
+				99A95F5E9BE02BC85E76713E10CCE810 /* PBXTargetDependency */,
+				10F7CCF8D88063CBC2A93EE811563B03 /* PBXTargetDependency */,
+			);
+			name = "flowe-focus-ios";
+		};
+		59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 62CFF14B0655A3C9DF76D6D37895DB1E /* Build configuration list for PBXAggregateTarget "URLImage" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = URLImage;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A381B9037C34998DBB0CFF6A64C2701B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C35BE096BE62DAD3E501FB5EBFF12A0B /* Pods-flowe-focus-integration-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A2202677A725846431D930CAFE74CF /* Pods-flowe-focus-integration-example-dummy.m */; };
+		F2D6A6D1D7C5D10A459CBB0FFEA951BA /* Pods-flowe-focus-integration-example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56EFAFD2C683B2A42EF2A996FAD4D1EE /* Pods-flowe-focus-integration-example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		059C32FC9CFA2C09DC3CF9FA26705BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F0EC9E7C53B8F2B2B1AC59226250AB;
+			remoteInfo = URLImage;
+		};
+		3110B7D7AE37C0365C359D22A5B4BB4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D7FD5275837E00363421054899B2918;
+			remoteInfo = Contentful;
+		};
+		428E6C4D6576F788CA8C181A2C2A06A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D7FD5275837E00363421054899B2918;
+			remoteInfo = Contentful;
+		};
+		A673F5805EB6490536C365C6045AE61A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F0EC9E7C53B8F2B2B1AC59226250AB;
+			remoteInfo = URLImage;
+		};
+		ECA191CE80F24472C6D90D87706B8141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7047AC9D3165CC815123201B5B39D4;
+			remoteInfo = "flowe-focus-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		273041963B7A65F7123BD076A02C0ABC /* Contentful.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contentful.framework; path = ../_Prebuild/GeneratedFrameworks/Contentful/Contentful.framework; sourceTree = "<group>"; };
+		280754E5660CBEC8650FC9ACA2945280 /* Pods_flowe_focus_integration_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_flowe_focus_integration_example.framework; path = "Pods-flowe-focus-integration-example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A2202677A725846431D930CAFE74CF /* Pods-flowe-focus-integration-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-flowe-focus-integration-example-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37541AF4BB384C3B6BC82852347FCEDE /* Contentful.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Contentful.xcconfig; sourceTree = "<group>"; };
+		404D39039875D5D834BF6A4EE38DF19A /* Pods-flowe-focus-integration-example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-flowe-focus-integration-example.modulemap"; sourceTree = "<group>"; };
+		53BC91AF0CF56ED31D896C2C91803362 /* Pods-flowe-focus-integration-example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flowe-focus-integration-example-Info.plist"; sourceTree = "<group>"; };
+		56EFAFD2C683B2A42EF2A996FAD4D1EE /* Pods-flowe-focus-integration-example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-flowe-focus-integration-example-umbrella.h"; sourceTree = "<group>"; };
+		5D74BD2769509669A69857969CD7039D /* Pods-flowe-focus-integration-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flowe-focus-integration-example.release.xcconfig"; sourceTree = "<group>"; };
+		69A089B875C787DF868A12EB4D21E105 /* Pods-flowe-focus-integration-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-flowe-focus-integration-example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		733FFE863449F61910340DC909704851 /* URLImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLImage.framework; path = ../_Prebuild/GeneratedFrameworks/URLImage/URLImage.framework; sourceTree = "<group>"; };
+		83F0D3A4B452A868B6A43341DB9A6D2B /* Pods-flowe-focus-integration-example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-flowe-focus-integration-example-frameworks.sh"; sourceTree = "<group>"; };
+		8ACA6A0C6BDEDC0AD4B80DFB8DA0D4C1 /* Pods-flowe-focus-integration-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flowe-focus-integration-example.debug.xcconfig"; sourceTree = "<group>"; };
+		923DD0C221D27E983FD744026C33FAB1 /* flowe_focus_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flowe_focus_ios.framework; path = "../_Prebuild/GeneratedFrameworks/flowe-focus-ios/flowe_focus_ios.framework"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A56B35812D45D0A8B8E9B70F5858AFB7 /* URLImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLImage.xcconfig; sourceTree = "<group>"; };
+		C324BD495FB77CAE2597FAA7C29ED1BA /* Pods-flowe-focus-integration-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flowe-focus-integration-example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBC81D9483490B2741810470E47C5C22 /* flowe-focus-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "flowe-focus-ios.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DE2D798C20FAE42CE90888BE74CD9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A381B9037C34998DBB0CFF6A64C2701B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F690508F3F1AB0CA157042BCBF076A2 /* URLImage */ = {
+			isa = PBXGroup;
+			children = (
+				5ACBB9350ADC1D892C2A94DF7231C1FE /* Frameworks */,
+				76BAEF083D09E6A1939A119D5F195300 /* Support Files */,
+			);
+			name = URLImage;
+			path = URLImage;
+			sourceTree = "<group>";
+		};
+		5213DF1AB0E54A04460F34F62BA542E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC802D326ECCA9136A6BED5903F26692 /* Contentful */,
+				F1C02BD98138B8BADC8BCE93173F9E88 /* flowe-focus-ios */,
+				2F690508F3F1AB0CA157042BCBF076A2 /* URLImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55F5C23C86615E153A9240A4DA40A079 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4AA8684C5609271A09A129144C5C028 /* Pods-flowe-focus-integration-example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5ACBB9350ADC1D892C2A94DF7231C1FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				733FFE863449F61910340DC909704851 /* URLImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76BAEF083D09E6A1939A119D5F195300 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A56B35812D45D0A8B8E9B70F5858AFB7 /* URLImage.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/URLImage";
+			sourceTree = "<group>";
+		};
+		7FA3D230D03905ECD79BF14FE235B789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				273041963B7A65F7123BD076A02C0ABC /* Contentful.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F1D4DA11B38C3D962F2DE5DA3BADCE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				923DD0C221D27E983FD744026C33FAB1 /* flowe_focus_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93E63BF223C9A94291F22C1347A2DE01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD3927680FDD12D814A0CE78AF2CF22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37541AF4BB384C3B6BC82852347FCEDE /* Contentful.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Contentful";
+			sourceTree = "<group>";
+		};
+		AC802D326ECCA9136A6BED5903F26692 /* Contentful */ = {
+			isa = PBXGroup;
+			children = (
+				7FA3D230D03905ECD79BF14FE235B789 /* Frameworks */,
+				EC6190FBC626BCDE5C5242BA8F6BA8B1 /* ImageOptions */,
+				9AD3927680FDD12D814A0CE78AF2CF22 /* Support Files */,
+			);
+			name = Contentful;
+			path = Contentful;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4AA8684C5609271A09A129144C5C028 /* Pods-flowe-focus-integration-example */ = {
+			isa = PBXGroup;
+			children = (
+				404D39039875D5D834BF6A4EE38DF19A /* Pods-flowe-focus-integration-example.modulemap */,
+				69A089B875C787DF868A12EB4D21E105 /* Pods-flowe-focus-integration-example-acknowledgements.markdown */,
+				C324BD495FB77CAE2597FAA7C29ED1BA /* Pods-flowe-focus-integration-example-acknowledgements.plist */,
+				28A2202677A725846431D930CAFE74CF /* Pods-flowe-focus-integration-example-dummy.m */,
+				83F0D3A4B452A868B6A43341DB9A6D2B /* Pods-flowe-focus-integration-example-frameworks.sh */,
+				53BC91AF0CF56ED31D896C2C91803362 /* Pods-flowe-focus-integration-example-Info.plist */,
+				56EFAFD2C683B2A42EF2A996FAD4D1EE /* Pods-flowe-focus-integration-example-umbrella.h */,
+				8ACA6A0C6BDEDC0AD4B80DFB8DA0D4C1 /* Pods-flowe-focus-integration-example.debug.xcconfig */,
+				5D74BD2769509669A69857969CD7039D /* Pods-flowe-focus-integration-example.release.xcconfig */,
+			);
+			name = "Pods-flowe-focus-integration-example";
+			path = "Target Support Files/Pods-flowe-focus-integration-example";
+			sourceTree = "<group>";
+		};
+		CA6B123B7EC51100C08410BD37DC8B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				280754E5660CBEC8650FC9ACA2945280 /* Pods_flowe_focus_integration_example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5213DF1AB0E54A04460F34F62BA542E3 /* Pods */,
+				CA6B123B7EC51100C08410BD37DC8B42 /* Products */,
+				55F5C23C86615E153A9240A4DA40A079 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8415DD575197C61D7866F6B362BA30C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBC81D9483490B2741810470E47C5C22 /* flowe-focus-ios.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/flowe-focus-ios";
+			sourceTree = "<group>";
+		};
+		EC6190FBC626BCDE5C5242BA8F6BA8B1 /* ImageOptions */ = {
+			isa = PBXGroup;
+			children = (
+				93E63BF223C9A94291F22C1347A2DE01 /* Frameworks */,
+			);
+			name = ImageOptions;
+			sourceTree = "<group>";
+		};
+		F1C02BD98138B8BADC8BCE93173F9E88 /* flowe-focus-ios */ = {
+			isa = PBXGroup;
+			children = (
+				8F1D4DA11B38C3D962F2DE5DA3BADCE5 /* Frameworks */,
+				E8415DD575197C61D7866F6B362BA30C /* Support Files */,
+			);
+			name = "flowe-focus-ios";
+			path = "flowe-focus-ios";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA4FB5F9C8CBED9F6BDF554056A974AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D6A6D1D7C5D10A459CBB0FFEA951BA /* Pods-flowe-focus-integration-example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		85204205FCC80D66B71A25FC6102066A /* Pods-flowe-focus-integration-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9F8784C77111679BDDD8A7521B5825 /* Build configuration list for PBXNativeTarget "Pods-flowe-focus-integration-example" */;
+			buildPhases = (
+				EA4FB5F9C8CBED9F6BDF554056A974AB /* Headers */,
+				D97CD71B47BC0FA10EF26032668ECD15 /* Sources */,
+				0DE2D798C20FAE42CE90888BE74CD9DC /* Frameworks */,
+				57AE218D9DDCC7960098D0A429C4BAFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B39FBF8957010CF1F5E7E18B1EB9A82 /* PBXTargetDependency */,
+				A5EBEED94184A5705168B04CA8CC5D8C /* PBXTargetDependency */,
+				C179789A6DFF763DCEE8221611690E6A /* PBXTargetDependency */,
+			);
+			name = "Pods-flowe-focus-integration-example";
+			productName = "Pods-flowe-focus-integration-example";
+			productReference = 280754E5660CBEC8650FC9ACA2945280 /* Pods_flowe_focus_integration_example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CA6B123B7EC51100C08410BD37DC8B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D7FD5275837E00363421054899B2918 /* Contentful */,
+				4F7047AC9D3165CC815123201B5B39D4 /* flowe-focus-ios */,
+				85204205FCC80D66B71A25FC6102066A /* Pods-flowe-focus-integration-example */,
+				59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57AE218D9DDCC7960098D0A429C4BAFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D97CD71B47BC0FA10EF26032668ECD15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35BE096BE62DAD3E501FB5EBFF12A0B /* Pods-flowe-focus-integration-example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10F7CCF8D88063CBC2A93EE811563B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = URLImage;
+			target = 59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */;
+			targetProxy = A673F5805EB6490536C365C6045AE61A /* PBXContainerItemProxy */;
+		};
+		7B39FBF8957010CF1F5E7E18B1EB9A82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Contentful;
+			target = 0D7FD5275837E00363421054899B2918 /* Contentful */;
+			targetProxy = 428E6C4D6576F788CA8C181A2C2A06A0 /* PBXContainerItemProxy */;
+		};
+		99A95F5E9BE02BC85E76713E10CCE810 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Contentful;
+			target = 0D7FD5275837E00363421054899B2918 /* Contentful */;
+			targetProxy = 3110B7D7AE37C0365C359D22A5B4BB4A /* PBXContainerItemProxy */;
+		};
+		A5EBEED94184A5705168B04CA8CC5D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = URLImage;
+			target = 59F0EC9E7C53B8F2B2B1AC59226250AB /* URLImage */;
+			targetProxy = 059C32FC9CFA2C09DC3CF9FA26705BD5 /* PBXContainerItemProxy */;
+		};
+		C179789A6DFF763DCEE8221611690E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "flowe-focus-ios";
+			target = 4F7047AC9D3165CC815123201B5B39D4 /* flowe-focus-ios */;
+			targetProxy = ECA191CE80F24472C6D90D87706B8141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		116196E099389CF589D90675C8B4E52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D74BD2769509669A69857969CD7039D /* Pods-flowe-focus-integration-example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6B2313FF51BE55EF77F81C5BB99991ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56B35812D45D0A8B8E9B70F5858AFB7 /* URLImage.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		830DEF7F52DAE3902D94A8AC6DA70168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC81D9483490B2741810470E47C5C22 /* flowe-focus-ios.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		915B5B8D7E8B7EF775DCBA73C7C52454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37541AF4BB384C3B6BC82852347FCEDE /* Contentful.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97107C90618F0AB85786049372121C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56B35812D45D0A8B8E9B70F5858AFB7 /* URLImage.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAD1B0D42690BC100DFA0065559F175E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37541AF4BB384C3B6BC82852347FCEDE /* Contentful.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8460DFF2B56088DEBE493C5B1F80C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBC81D9483490B2741810470E47C5C22 /* flowe-focus-ios.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED2CEB46D21AC75FE1F7D53E6B242561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ACA6A0C6BDEDC0AD4B80DFB8DA0D4C1 /* Pods-flowe-focus-integration-example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51BCA3A84EC6CE64FA39D4F452A83BB4 /* Build configuration list for PBXAggregateTarget "flowe-focus-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				830DEF7F52DAE3902D94A8AC6DA70168 /* Debug */,
+				E8460DFF2B56088DEBE493C5B1F80C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CFF14B0655A3C9DF76D6D37895DB1E /* Build configuration list for PBXAggregateTarget "URLImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97107C90618F0AB85786049372121C97 /* Debug */,
+				6B2313FF51BE55EF77F81C5BB99991ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6BD273AD3FF2A387994D5F3B7CDB614 /* Build configuration list for PBXAggregateTarget "Contentful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD1B0D42690BC100DFA0065559F175E /* Debug */,
+				915B5B8D7E8B7EF775DCBA73C7C52454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9F8784C77111679BDDD8A7521B5825 /* Build configuration list for PBXNativeTarget "Pods-flowe-focus-integration-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2CEB46D21AC75FE1F7D53E6B242561 /* Debug */,
+				116196E099389CF589D90675C8B4E52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
