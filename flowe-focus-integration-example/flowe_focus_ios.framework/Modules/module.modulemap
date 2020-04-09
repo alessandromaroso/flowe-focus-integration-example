@@ -1,0 +1,11 @@
+framework module flowe_focus_ios {
+  umbrella header "flowe-focus-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flowe_focus_ios.Swift {
+    header "flowe_focus_ios-Swift.h"
+    requires objc
+}

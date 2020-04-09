@@ -13,7 +13,29 @@
 		4E9267CD243F60D700D5279E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9267CC243F60D700D5279E /* Assets.xcassets */; };
 		4E9267D0243F60D700D5279E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9267CF243F60D700D5279E /* Preview Assets.xcassets */; };
 		4E9267D3243F60D700D5279E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9267D1243F60D700D5279E /* LaunchScreen.storyboard */; };
+		4E9267E5243F63E900D5279E /* Contentful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267DA243F63A200D5279E /* Contentful.framework */; };
+		4E9267E6243F63E900D5279E /* Contentful.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267DA243F63A200D5279E /* Contentful.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E9267E8243F63EA00D5279E /* flowe_focus_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267E3243F63CD00D5279E /* flowe_focus_ios.framework */; };
+		4E9267E9243F63EA00D5279E /* flowe_focus_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267E3243F63CD00D5279E /* flowe_focus_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4E9267EA243F63EC00D5279E /* URLImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267E1243F63C300D5279E /* URLImage.framework */; };
+		4E9267EB243F63EC00D5279E /* URLImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267E1243F63C300D5279E /* URLImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E9267E7243F63E900D5279E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4E9267E6243F63E900D5279E /* Contentful.framework in Embed Frameworks */,
+				4E9267EB243F63EC00D5279E /* URLImage.framework in Embed Frameworks */,
+				4E9267E9243F63EA00D5279E /* flowe_focus_ios.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4E9267C3243F60D600D5279E /* flowe-focus-integration-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "flowe-focus-integration-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +46,9 @@
 		4E9267CF243F60D700D5279E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E9267D2243F60D700D5279E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E9267D4243F60D700D5279E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E9267DA243F63A200D5279E /* Contentful.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Contentful.framework; sourceTree = "<group>"; };
+		4E9267E1243F63C300D5279E /* URLImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = URLImage.framework; sourceTree = "<group>"; };
+		4E9267E3243F63CD00D5279E /* flowe_focus_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = flowe_focus_ios.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E9267E5243F63E900D5279E /* Contentful.framework in Frameworks */,
+				4E9267EA243F63EC00D5279E /* URLImage.framework in Frameworks */,
+				4E9267E8243F63EA00D5279E /* flowe_focus_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +88,9 @@
 				4E9267C8243F60D600D5279E /* SceneDelegate.swift */,
 				4E9267CA243F60D600D5279E /* ContentView.swift */,
 				4E9267CC243F60D700D5279E /* Assets.xcassets */,
+				4E9267E3243F63CD00D5279E /* flowe_focus_ios.framework */,
+				4E9267DA243F63A200D5279E /* Contentful.framework */,
+				4E9267E1243F63C300D5279E /* URLImage.framework */,
 				4E9267D1243F60D700D5279E /* LaunchScreen.storyboard */,
 				4E9267D4243F60D700D5279E /* Info.plist */,
 				4E9267CE243F60D700D5279E /* Preview Content */,
@@ -85,6 +116,7 @@
 				4E9267BF243F60D600D5279E /* Sources */,
 				4E9267C0243F60D600D5279E /* Frameworks */,
 				4E9267C1243F60D600D5279E /* Resources */,
+				4E9267E7243F63E900D5279E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +320,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"flowe-focus-integration-example/Preview Content\"";
 				DEVELOPMENT_TEAM = VGG2S5UZEJ;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/flowe-focus-integration-example",
+					"$(PROJECT_DIR)/flowe-focus-integration-example/flowe-focus-ios",
+				);
 				INFOPLIST_FILE = "flowe-focus-integration-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,6 +345,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"flowe-focus-integration-example/Preview Content\"";
 				DEVELOPMENT_TEAM = VGG2S5UZEJ;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/flowe-focus-integration-example",
+					"$(PROJECT_DIR)/flowe-focus-integration-example/flowe-focus-ios",
+				);
 				INFOPLIST_FILE = "flowe-focus-integration-example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

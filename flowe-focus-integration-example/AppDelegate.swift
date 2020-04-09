@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import flowe_focus_ios
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FocusManagerProvider.sharedManager.configure(with: FocusManagerConfiguration(accessToken: "lRq-xLGXXi-6UsEN1FU8UJ3RajJJsKEQVuJsZ-InIIM", spaceId: "gar44498zrac"))
         return true
     }
 
