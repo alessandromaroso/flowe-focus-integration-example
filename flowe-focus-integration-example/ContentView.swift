@@ -7,15 +7,22 @@
 //
 
 import SwiftUI
+import flowe_focus_ios
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
-    }
-}
+    @State var navigate = false
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    var body: some View {
+                NavigationView {
+            VStack {
+                NavigationLink(destination: FocusManagerProvider.sharedManager.createFocusScene(for: nil),
+                               isActive: $navigate,
+                               label: {
+                                Button(action: { self.navigate = true },
+                                       label: { Text("Go to focus home") })
+                })
+            }
+        }
+
     }
 }
