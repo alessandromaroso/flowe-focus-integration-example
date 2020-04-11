@@ -8,29 +8,20 @@ PODS:
   - URLImage (0.9.13)
 
 DEPENDENCIES:
-  - Contentful (from `https://github.com/alessandromaroso/contentful.swift.git`)
   - flowe-focus-ios
 
 SPEC REPOS:
   "git@gitlab.com:rawfish/flowe/flowe-focus-specs.git":
     - flowe-focus-ios
   https://github.com/CocoaPods/Specs.git:
+    - Contentful
     - URLImage
 
-EXTERNAL SOURCES:
-  Contentful:
-    :git: https://github.com/alessandromaroso/contentful.swift.git
-
-CHECKOUT OPTIONS:
-  Contentful:
-    :commit: 47e480e9ce3255192565cf515ceb4750231d3f05
-    :git: https://github.com/alessandromaroso/contentful.swift.git
-
 SPEC CHECKSUMS:
-  Contentful: 5daee666843139c0b1f0a239b97ea54737c9777f
+  Contentful: 5331d11ab2ee9fed7ad2f3e63b355602bc3a99bd
   flowe-focus-ios: 5dfc0de01c9a9758b2ca22a7ca81bbe197c5bbb3
   URLImage: bc851af67404bd3e8680269770d5a2c9dfaacaf2
 
-PODFILE CHECKSUM: 679dc430179570e2b80d95dd871614dced756359
+PODFILE CHECKSUM: 51df24eb74352eb7ebd19ec948039b272b9ecd5b
 
 COCOAPODS: 1.9.1
