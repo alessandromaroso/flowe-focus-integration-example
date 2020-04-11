@@ -2,7 +2,7 @@ PODS:
   - Contentful (5.0.9):
     - Contentful/ImageOptions (= 5.0.9)
   - Contentful/ImageOptions (5.0.9)
-  - flowe-focus-ios (0.1.1):
+  - flowe-focus-ios (0.1.2):
     - Contentful (~> 5.0.8)
     - URLImage (~> 0.9.12)
   - URLImage (0.9.13)
@@ -19,7 +19,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Contentful: 5331d11ab2ee9fed7ad2f3e63b355602bc3a99bd
-  flowe-focus-ios: 2a1d12c4595f9f15ba437f8bc172a45178069b25
+  flowe-focus-ios: 9fc4582d1e44352314167fa9a67f4ac6dd0bd235
   URLImage: bc851af67404bd3e8680269770d5a2c9dfaacaf2
 
 PODFILE CHECKSUM: 51df24eb74352eb7ebd19ec948039b272b9ecd5b
