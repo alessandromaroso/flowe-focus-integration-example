@@ -6,4 +6,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'flowe-focus-integration-example' do
   use_frameworks!
   pod 'flowe-focus-ios', :binary => true
+  pod 'Contentful', :git => 'https://github.com/alessandromaroso/contentful.swift.git', :binary => true
+
 end
