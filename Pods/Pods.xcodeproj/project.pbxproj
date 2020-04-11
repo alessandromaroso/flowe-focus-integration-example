@@ -83,24 +83,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		273041963B7A65F7123BD076A02C0ABC /* Contentful.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contentful.framework; path = ../_Prebuild/GeneratedFrameworks/Contentful/Contentful.framework; sourceTree = "<group>"; };
+		02CE031710E3B5E627B143C94CBE8F56 /* URLImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLImage.framework; path = ../_Prebuild/GeneratedFrameworks/URLImage/URLImage.framework; sourceTree = "<group>"; };
+		1548A2A3C079858E7E215EE4951C1990 /* URLImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLImage.release.xcconfig; sourceTree = "<group>"; };
+		16A89AA54A085071AF30880E6D16E1F1 /* flowe_focus_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flowe_focus_ios.framework; path = "../_Prebuild/GeneratedFrameworks/flowe-focus-ios/flowe_focus_ios.framework"; sourceTree = "<group>"; };
 		280754E5660CBEC8650FC9ACA2945280 /* Pods_flowe_focus_integration_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_flowe_focus_integration_example.framework; path = "Pods-flowe-focus-integration-example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A2202677A725846431D930CAFE74CF /* Pods-flowe-focus-integration-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-flowe-focus-integration-example-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37541AF4BB384C3B6BC82852347FCEDE /* Contentful.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Contentful.xcconfig; sourceTree = "<group>"; };
 		404D39039875D5D834BF6A4EE38DF19A /* Pods-flowe-focus-integration-example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-flowe-focus-integration-example.modulemap"; sourceTree = "<group>"; };
 		53BC91AF0CF56ED31D896C2C91803362 /* Pods-flowe-focus-integration-example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flowe-focus-integration-example-Info.plist"; sourceTree = "<group>"; };
 		56EFAFD2C683B2A42EF2A996FAD4D1EE /* Pods-flowe-focus-integration-example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-flowe-focus-integration-example-umbrella.h"; sourceTree = "<group>"; };
 		5D74BD2769509669A69857969CD7039D /* Pods-flowe-focus-integration-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flowe-focus-integration-example.release.xcconfig"; sourceTree = "<group>"; };
+		6410F9D94D5332DD36B1C710DC3B7699 /* flowe-focus-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "flowe-focus-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		69A089B875C787DF868A12EB4D21E105 /* Pods-flowe-focus-integration-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-flowe-focus-integration-example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		733FFE863449F61910340DC909704851 /* URLImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = URLImage.framework; path = ../_Prebuild/GeneratedFrameworks/URLImage/URLImage.framework; sourceTree = "<group>"; };
+		71163F85A467D07DC62B2951A75B08D1 /* flowe-focus-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "flowe-focus-ios.release.xcconfig"; sourceTree = "<group>"; };
 		83F0D3A4B452A868B6A43341DB9A6D2B /* Pods-flowe-focus-integration-example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-flowe-focus-integration-example-frameworks.sh"; sourceTree = "<group>"; };
 		8ACA6A0C6BDEDC0AD4B80DFB8DA0D4C1 /* Pods-flowe-focus-integration-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-flowe-focus-integration-example.debug.xcconfig"; sourceTree = "<group>"; };
-		923DD0C221D27E983FD744026C33FAB1 /* flowe_focus_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = flowe_focus_ios.framework; path = "../_Prebuild/GeneratedFrameworks/flowe-focus-ios/flowe_focus_ios.framework"; sourceTree = "<group>"; };
+		926BB2DD426816FBC54DA9C4E1D54E4E /* URLImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLImage.debug.xcconfig; sourceTree = "<group>"; };
+		984C2CEBF7D1BAAA95DECB049565C49C /* Contentful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Contentful.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A56B35812D45D0A8B8E9B70F5858AFB7 /* URLImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLImage.xcconfig; sourceTree = "<group>"; };
 		C324BD495FB77CAE2597FAA7C29ED1BA /* Pods-flowe-focus-integration-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-flowe-focus-integration-example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EBC81D9483490B2741810470E47C5C22 /* flowe-focus-ios.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "flowe-focus-ios.xcconfig"; sourceTree = "<group>"; };
+		CC695278891A4CA3BAD525F81BAA1CA9 /* Contentful.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contentful.framework; path = ../_Prebuild/GeneratedFrameworks/Contentful/Contentful.framework; sourceTree = "<group>"; };
+		E94C3000B35A21B7751378E91282CD9C /* Contentful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Contentful.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,22 +118,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F690508F3F1AB0CA157042BCBF076A2 /* URLImage */ = {
+		088696BCF943D50E1CF00C0E0E494F83 /* Contentful */ = {
 			isa = PBXGroup;
 			children = (
-				5ACBB9350ADC1D892C2A94DF7231C1FE /* Frameworks */,
-				76BAEF083D09E6A1939A119D5F195300 /* Support Files */,
+				C1263F22E16BE7DBE5796A36DDFB8932 /* Frameworks */,
+				8512885914E10AFE985586256A519407 /* ImageOptions */,
+				F6196900D81BDCDEF72A5DA7D6A30F4F /* Support Files */,
 			);
-			name = URLImage;
-			path = URLImage;
+			name = Contentful;
+			path = Contentful;
+			sourceTree = "<group>";
+		};
+		44FF57930B1762718D6A99F0244AF3AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02CE031710E3B5E627B143C94CBE8F56 /* URLImage.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5213DF1AB0E54A04460F34F62BA542E3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AC802D326ECCA9136A6BED5903F26692 /* Contentful */,
-				F1C02BD98138B8BADC8BCE93173F9E88 /* flowe-focus-ios */,
-				2F690508F3F1AB0CA157042BCBF076A2 /* URLImage */,
+				088696BCF943D50E1CF00C0E0E494F83 /* Contentful */,
+				FA164F7C7580255B6363EFD43496F757 /* flowe-focus-ios */,
+				E73CEE9AD461D02E58CFB931CE1AAC8A /* URLImage */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -143,64 +155,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5ACBB9350ADC1D892C2A94DF7231C1FE /* Frameworks */ = {
+		8512885914E10AFE985586256A519407 /* ImageOptions */ = {
 			isa = PBXGroup;
 			children = (
-				733FFE863449F61910340DC909704851 /* URLImage.framework */,
+				FBDADE04024EE566B78C95BFB6426DCA /* Frameworks */,
 			);
-			name = Frameworks;
+			name = ImageOptions;
 			sourceTree = "<group>";
 		};
-		76BAEF083D09E6A1939A119D5F195300 /* Support Files */ = {
+		86882A125F6B1431FA1BA1439BB5EAA1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A56B35812D45D0A8B8E9B70F5858AFB7 /* URLImage.xcconfig */,
+				6410F9D94D5332DD36B1C710DC3B7699 /* flowe-focus-ios.debug.xcconfig */,
+				71163F85A467D07DC62B2951A75B08D1 /* flowe-focus-ios.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/flowe-focus-ios";
+			sourceTree = "<group>";
+		};
+		A63ADAC21A920876C2C7D9B76BC38EE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				926BB2DD426816FBC54DA9C4E1D54E4E /* URLImage.debug.xcconfig */,
+				1548A2A3C079858E7E215EE4951C1990 /* URLImage.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/URLImage";
-			sourceTree = "<group>";
-		};
-		7FA3D230D03905ECD79BF14FE235B789 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				273041963B7A65F7123BD076A02C0ABC /* Contentful.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8F1D4DA11B38C3D962F2DE5DA3BADCE5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				923DD0C221D27E983FD744026C33FAB1 /* flowe_focus_ios.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		93E63BF223C9A94291F22C1347A2DE01 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9AD3927680FDD12D814A0CE78AF2CF22 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				37541AF4BB384C3B6BC82852347FCEDE /* Contentful.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Contentful";
-			sourceTree = "<group>";
-		};
-		AC802D326ECCA9136A6BED5903F26692 /* Contentful */ = {
-			isa = PBXGroup;
-			children = (
-				7FA3D230D03905ECD79BF14FE235B789 /* Frameworks */,
-				EC6190FBC626BCDE5C5242BA8F6BA8B1 /* ImageOptions */,
-				9AD3927680FDD12D814A0CE78AF2CF22 /* Support Files */,
-			);
-			name = Contentful;
-			path = Contentful;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -209,6 +189,14 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1263F22E16BE7DBE5796A36DDFB8932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC695278891A4CA3BAD525F81BAA1CA9 /* Contentful.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C4AA8684C5609271A09A129144C5C028 /* Pods-flowe-focus-integration-example */ = {
@@ -226,6 +214,14 @@
 			);
 			name = "Pods-flowe-focus-integration-example";
 			path = "Target Support Files/Pods-flowe-focus-integration-example";
+			sourceTree = "<group>";
+		};
+		C4D83BDD4EB0E11396E4185A342910A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16A89AA54A085071AF30880E6D16E1F1 /* flowe_focus_ios.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CA6B123B7EC51100C08410BD37DC8B42 /* Products */ = {
@@ -255,31 +251,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E8415DD575197C61D7866F6B362BA30C /* Support Files */ = {
+		E73CEE9AD461D02E58CFB931CE1AAC8A /* URLImage */ = {
 			isa = PBXGroup;
 			children = (
-				EBC81D9483490B2741810470E47C5C22 /* flowe-focus-ios.xcconfig */,
+				44FF57930B1762718D6A99F0244AF3AE /* Frameworks */,
+				A63ADAC21A920876C2C7D9B76BC38EE5 /* Support Files */,
+			);
+			name = URLImage;
+			path = URLImage;
+			sourceTree = "<group>";
+		};
+		F6196900D81BDCDEF72A5DA7D6A30F4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				984C2CEBF7D1BAAA95DECB049565C49C /* Contentful.debug.xcconfig */,
+				E94C3000B35A21B7751378E91282CD9C /* Contentful.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/flowe-focus-ios";
+			path = "../Target Support Files/Contentful";
 			sourceTree = "<group>";
 		};
-		EC6190FBC626BCDE5C5242BA8F6BA8B1 /* ImageOptions */ = {
+		FA164F7C7580255B6363EFD43496F757 /* flowe-focus-ios */ = {
 			isa = PBXGroup;
 			children = (
-				93E63BF223C9A94291F22C1347A2DE01 /* Frameworks */,
-			);
-			name = ImageOptions;
-			sourceTree = "<group>";
-		};
-		F1C02BD98138B8BADC8BCE93173F9E88 /* flowe-focus-ios */ = {
-			isa = PBXGroup;
-			children = (
-				8F1D4DA11B38C3D962F2DE5DA3BADCE5 /* Frameworks */,
-				E8415DD575197C61D7866F6B362BA30C /* Support Files */,
+				C4D83BDD4EB0E11396E4185A342910A7 /* Frameworks */,
+				86882A125F6B1431FA1BA1439BB5EAA1 /* Support Files */,
 			);
 			name = "flowe-focus-ios";
 			path = "flowe-focus-ios";
+			sourceTree = "<group>";
+		};
+		FBDADE04024EE566B78C95BFB6426DCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -501,9 +507,43 @@
 			};
 			name = Release;
 		};
-		6B2313FF51BE55EF77F81C5BB99991ED /* Release */ = {
+		6AAB59C0409855C6C24E12246E3FB4F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56B35812D45D0A8B8E9B70F5858AFB7 /* URLImage.xcconfig */;
+			baseConfigurationReference = 71163F85A467D07DC62B2951A75B08D1 /* flowe-focus-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A3B2C61FAF5D77FADA87E6AD604F4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984C2CEBF7D1BAAA95DECB049565C49C /* Contentful.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9492416B93EF9F31609C61D34F7DE9FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1548A2A3C079858E7E215EE4951C1990 /* URLImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -519,9 +559,9 @@
 			};
 			name = Release;
 		};
-		830DEF7F52DAE3902D94A8AC6DA70168 /* Debug */ = {
+		A3BE2F1F26FB1F57D5A9F643342A6D79 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBC81D9483490B2741810470E47C5C22 /* flowe-focus-ios.xcconfig */;
+			baseConfigurationReference = 6410F9D94D5332DD36B1C710DC3B7699 /* flowe-focus-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -536,26 +576,9 @@
 			};
 			name = Debug;
 		};
-		915B5B8D7E8B7EF775DCBA73C7C52454 /* Release */ = {
+		BF2F9B621881CB226A2F468C28261EE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37541AF4BB384C3B6BC82852347FCEDE /* Contentful.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		97107C90618F0AB85786049372121C97 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56B35812D45D0A8B8E9B70F5858AFB7 /* URLImage.xcconfig */;
+			baseConfigurationReference = 926BB2DD426816FBC54DA9C4E1D54E4E /* URLImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -570,30 +593,13 @@
 			};
 			name = Debug;
 		};
-		DAD1B0D42690BC100DFA0065559F175E /* Debug */ = {
+		E689FF14EB1EF40ECE16B1CD6300B5A9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37541AF4BB384C3B6BC82852347FCEDE /* Contentful.xcconfig */;
+			baseConfigurationReference = E94C3000B35A21B7751378E91282CD9C /* Contentful.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E8460DFF2B56088DEBE493C5B1F80C03 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EBC81D9483490B2741810470E47C5C22 /* flowe-focus-ios.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -721,8 +727,8 @@
 		51BCA3A84EC6CE64FA39D4F452A83BB4 /* Build configuration list for PBXAggregateTarget "flowe-focus-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				830DEF7F52DAE3902D94A8AC6DA70168 /* Debug */,
-				E8460DFF2B56088DEBE493C5B1F80C03 /* Release */,
+				A3BE2F1F26FB1F57D5A9F643342A6D79 /* Debug */,
+				6AAB59C0409855C6C24E12246E3FB4F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -730,8 +736,8 @@
 		62CFF14B0655A3C9DF76D6D37895DB1E /* Build configuration list for PBXAggregateTarget "URLImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97107C90618F0AB85786049372121C97 /* Debug */,
-				6B2313FF51BE55EF77F81C5BB99991ED /* Release */,
+				BF2F9B621881CB226A2F468C28261EE6 /* Debug */,
+				9492416B93EF9F31609C61D34F7DE9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -739,8 +745,8 @@
 		B6BD273AD3FF2A387994D5F3B7CDB614 /* Build configuration list for PBXAggregateTarget "Contentful" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DAD1B0D42690BC100DFA0065559F175E /* Debug */,
-				915B5B8D7E8B7EF775DCBA73C7C52454 /* Release */,
+				8A3B2C61FAF5D77FADA87E6AD604F4DF /* Debug */,
+				E689FF14EB1EF40ECE16B1CD6300B5A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
