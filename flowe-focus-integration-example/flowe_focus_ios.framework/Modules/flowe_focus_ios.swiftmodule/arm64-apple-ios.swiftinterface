@@ -43,6 +43,7 @@ public enum FocusManagerError : Swift.Error {
 }
 public struct FocusManagerConfiguration {
   public struct Colors {
+    public init(backgroundGradient: [SwiftUI.Color], headerGradient: [SwiftUI.Color], accentColor: SwiftUI.Color, textColor: SwiftUI.Color, primaryBackground: SwiftUI.Color, secondaryBackground: SwiftUI.Color)
     public static func defaults() -> flowe_focus_ios.FocusManagerConfiguration.Colors
   }
   public init(accessToken: Swift.String, spaceId: Swift.String, environmentId: Swift.String = "master", colors: flowe_focus_ios.FocusManagerConfiguration.Colors = .defaults())
