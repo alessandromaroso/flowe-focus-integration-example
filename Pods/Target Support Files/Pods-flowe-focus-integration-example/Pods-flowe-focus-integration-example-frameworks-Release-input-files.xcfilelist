@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example-frameworks.sh
+${PODS_ROOT}/../Libraries/Contentful.framework
+${PODS_ROOT}/../Libraries/URLImage.framework
+${PODS_ROOT}/../Libraries/flowe_focus_ios.framework

@@ -1,0 +1,26 @@
+PODS:
+  - Contentful (5.0.8)
+  - flowe-focus-ios (0.1.5)
+  - URLImage (0.9.12)
+
+DEPENDENCIES:
+  - Contentful (from `./Libraries/`)
+  - flowe-focus-ios (from `./Libraries/`)
+  - URLImage (from `./Libraries/`)
+
+EXTERNAL SOURCES:
+  Contentful:
+    :path: "./Libraries/"
+  flowe-focus-ios:
+    :path: "./Libraries/"
+  URLImage:
+    :path: "./Libraries/"
+
+SPEC CHECKSUMS:
+  Contentful: d6345387c61efbb62e3664189192b62fadc8845b
+  flowe-focus-ios: b385318e29468d1ccb9d70b95aea2eeb3d605a8a
+  URLImage: 93dead81ac33d739b8175f4e9778aab3202832f0
+
+PODFILE CHECKSUM: a0082aeb0d66aa8117a30f733426b53380a51761
+
+COCOAPODS: 1.9.1

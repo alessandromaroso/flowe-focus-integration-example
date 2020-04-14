@@ -1,0 +1,22 @@
+{
+  "name": "flowe-focus-ios",
+  "version": "0.1.5",
+  "summary": "Focus module for flowe app.",
+  "description": "Focus module for flowe app",
+  "homepage": "https://dev.azure.com/BM0/Flowe-Contents/_git/Flowe%20Contents%20-%20iOS",
+  "license": "MIT",
+  "authors": {
+    "Alessandro Maroso": "alessandro.maroso@rawfish.com"
+  },
+  "source": {
+    "git": "https://dev.azure.com/BM0/Flowe-Contents/_git/Flowe%20Contents%20-%20iOS",
+    "tag": "0.1.5"
+  },
+  "vendored_frameworks": "flowe_focus_ios.framework",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

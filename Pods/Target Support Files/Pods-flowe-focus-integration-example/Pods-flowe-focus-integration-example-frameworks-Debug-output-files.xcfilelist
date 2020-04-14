@@ -1,0 +1,3 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Contentful.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLImage.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/flowe_focus_ios.framework

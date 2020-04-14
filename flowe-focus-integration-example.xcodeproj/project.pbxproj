@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,12 +13,8 @@
 		4E9267CD243F60D700D5279E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9267CC243F60D700D5279E /* Assets.xcassets */; };
 		4E9267D0243F60D700D5279E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9267CF243F60D700D5279E /* Preview Assets.xcassets */; };
 		4E9267D3243F60D700D5279E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9267D1243F60D700D5279E /* LaunchScreen.storyboard */; };
-		4E9267E5243F63E900D5279E /* Contentful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267DA243F63A200D5279E /* Contentful.framework */; };
-		4E9267E6243F63E900D5279E /* Contentful.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267DA243F63A200D5279E /* Contentful.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4E9267E8243F63EA00D5279E /* flowe_focus_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267E3243F63CD00D5279E /* flowe_focus_ios.framework */; };
-		4E9267E9243F63EA00D5279E /* flowe_focus_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267E3243F63CD00D5279E /* flowe_focus_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4E9267EA243F63EC00D5279E /* URLImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267E1243F63C300D5279E /* URLImage.framework */; };
-		4E9267EB243F63EC00D5279E /* URLImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9267E1243F63C300D5279E /* URLImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4EE7203B2445C6510030FBE7 /* Pods_flowe_focus_integration_example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB5F8B4927BEFE3C178BBC56 /* Pods_flowe_focus_integration_example.framework */; };
+		4EE7203C2445C6510030FBE7 /* Pods_flowe_focus_integration_example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EB5F8B4927BEFE3C178BBC56 /* Pods_flowe_focus_integration_example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4E9267E6243F63E900D5279E /* Contentful.framework in Embed Frameworks */,
-				4E9267EB243F63EC00D5279E /* URLImage.framework in Embed Frameworks */,
-				4E9267E9243F63EA00D5279E /* flowe_focus_ios.framework in Embed Frameworks */,
+				4EE7203C2445C6510030FBE7 /* Pods_flowe_focus_integration_example.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,9 +40,9 @@
 		4E9267CF243F60D700D5279E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E9267D2243F60D700D5279E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E9267D4243F60D700D5279E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E9267DA243F63A200D5279E /* Contentful.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Contentful.framework; sourceTree = "<group>"; };
-		4E9267E1243F63C300D5279E /* URLImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = URLImage.framework; sourceTree = "<group>"; };
-		4E9267E3243F63CD00D5279E /* flowe_focus_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = flowe_focus_ios.framework; sourceTree = "<group>"; };
+		8AADA55847E07F4426D2C602 /* Pods-flowe-focus-integration-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flowe-focus-integration-example.release.xcconfig"; path = "Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example.release.xcconfig"; sourceTree = "<group>"; };
+		916C991E425DC9624432F64A /* Pods-flowe-focus-integration-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flowe-focus-integration-example.debug.xcconfig"; path = "Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example.debug.xcconfig"; sourceTree = "<group>"; };
+		EB5F8B4927BEFE3C178BBC56 /* Pods_flowe_focus_integration_example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flowe_focus_integration_example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E9267E5243F63E900D5279E /* Contentful.framework in Frameworks */,
-				4E9267EA243F63EC00D5279E /* URLImage.framework in Frameworks */,
-				4E9267E8243F63EA00D5279E /* flowe_focus_ios.framework in Frameworks */,
+				4EE7203B2445C6510030FBE7 /* Pods_flowe_focus_integration_example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +62,8 @@
 			children = (
 				4E9267C5243F60D600D5279E /* flowe-focus-integration-example */,
 				4E9267C4243F60D600D5279E /* Products */,
+				C3732BC4D789D5D23C92AF7D /* Pods */,
+				53B199836D9B5C97C84AAAB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,9 +82,6 @@
 				4E9267C8243F60D600D5279E /* SceneDelegate.swift */,
 				4E9267CA243F60D600D5279E /* ContentView.swift */,
 				4E9267CC243F60D700D5279E /* Assets.xcassets */,
-				4E9267E3243F63CD00D5279E /* flowe_focus_ios.framework */,
-				4E9267DA243F63A200D5279E /* Contentful.framework */,
-				4E9267E1243F63C300D5279E /* URLImage.framework */,
 				4E9267D1243F60D700D5279E /* LaunchScreen.storyboard */,
 				4E9267D4243F60D700D5279E /* Info.plist */,
 				4E9267CE243F60D700D5279E /* Preview Content */,
@@ -106,6 +97,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		53B199836D9B5C97C84AAAB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB5F8B4927BEFE3C178BBC56 /* Pods_flowe_focus_integration_example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3732BC4D789D5D23C92AF7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				916C991E425DC9624432F64A /* Pods-flowe-focus-integration-example.debug.xcconfig */,
+				8AADA55847E07F4426D2C602 /* Pods-flowe-focus-integration-example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,10 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E9267D7243F60D700D5279E /* Build configuration list for PBXNativeTarget "flowe-focus-integration-example" */;
 			buildPhases = (
+				0D8C5CC0189687FFD4A54838 /* [CP] Check Pods Manifest.lock */,
 				4E9267BF243F60D600D5279E /* Sources */,
 				4E9267C0243F60D600D5279E /* Frameworks */,
 				4E9267C1243F60D600D5279E /* Resources */,
 				4E9267E7243F63E900D5279E /* Embed Frameworks */,
+				776D68ACE7C6727875D75CD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +182,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D8C5CC0189687FFD4A54838 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flowe-focus-integration-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		776D68ACE7C6727875D75CD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-flowe-focus-integration-example/Pods-flowe-focus-integration-example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E9267BF243F60D600D5279E /* Sources */ = {
@@ -314,6 +366,7 @@
 		};
 		4E9267D8243F60D700D5279E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916C991E425DC9624432F64A /* Pods-flowe-focus-integration-example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -340,6 +393,7 @@
 		};
 		4E9267D9243F60D700D5279E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AADA55847E07F4426D2C602 /* Pods-flowe-focus-integration-example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
