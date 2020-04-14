@@ -326,6 +326,7 @@
 					"$(PROJECT_DIR)/flowe-focus-integration-example/flowe-focus-ios",
 				);
 				INFOPLIST_FILE = "flowe-focus-integration-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -351,6 +352,7 @@
 					"$(PROJECT_DIR)/flowe-focus-integration-example/flowe-focus-ios",
 				);
 				INFOPLIST_FILE = "flowe-focus-integration-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
